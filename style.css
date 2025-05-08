@@ -68,7 +68,7 @@ nav ul li a {
 }
 
 .hero {
-  background-image: url('/images/power-2.jpg');
+  background-image: url('.../images/power-2.jpg');
   background-size: cover;
   background-position: center;
   color: white;
@@ -225,7 +225,7 @@ footer {
 }
 
 .image-power {
-  background-image: url('/images/power.jpg');
+  background-image: url('.../images/power.jpg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -298,7 +298,7 @@ footer {
 }
 
 .map {
-  background-image: url('/images/world-map.jpg');
+  background-image: url('.../images/world-map.jpg');
   height: 700px;
   background-size: cover;
   background-position: center;
