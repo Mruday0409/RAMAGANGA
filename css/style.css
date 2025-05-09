@@ -22,6 +22,15 @@ color: #e64a19;
   align-items: center;
   padding: 10px 20px;
 }
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 @media (max-width: 768px) {
   .About {
     flex-direction: column;
@@ -41,6 +50,34 @@ color: #e64a19;
     width: 90%;
     height: auto;
   }
+  @media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .about-text, .mission-text, .vision-text {
+    padding: 15px;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-wrapper, .card-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 }
 .hero-text a:hover {
   color: white;
